@@ -19,6 +19,7 @@ class CountVectorizer:
         -------
         list[list[int]]
             A document-term matrix with frequency of words in corpus (int >= 0)
+            
         """
 
         # We extract feature names (columns) and construct a document-term matrix
