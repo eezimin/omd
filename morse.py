@@ -44,12 +44,3 @@ def decode(morse_message: str) -> str:
     ]
 
     return ''.join(decoded_letters)
-
-
-if __name__ == '__main__':
-    morse_msg = '-- .- .. -....- .--. -.-- - .... --- -. -....- ..--- ----- .---- ----.'
-    decoded_msg = decode(morse_msg)
-    print(decoded_msg)
-    assert morse_msg == encode(decoded_msg)
-    print(encode('ILOVEYOU'))
-    print(encode(''))
