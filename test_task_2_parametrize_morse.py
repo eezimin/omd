@@ -4,7 +4,7 @@ import pytest
 
 
 @pytest.mark.parametrize(
-    "source_string,result",
+    'source_string,result',
     [
         ('-- .- .. -....- .--. -.-- - .... --- -. -....- ..--- ----- .---- ----.', 'MAI-PYTHON-2019'),
         ('.. .-.. --- ...- . -.-- --- ..-', 'ILOVEYOU'),
