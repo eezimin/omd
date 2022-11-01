@@ -16,7 +16,6 @@ python -m pytest task_4_pytest_onehot.py|cat
 ![image](https://user-images.githubusercontent.com/77446049/194842403-ceaa913c-8d1d-4cf0-a773-61c3bfb1fb93.png)
 
 ## Task 5
-python -m pytest -v -s task_5_mock_yearnow.py --cov=what_is_year_now
+python -m pytest -q task_5_mock_yearnow.py --cov=what_is_year_now --cov-report html
 
-python -m pytest --cov . --cov-report html
 ![image](https://user-images.githubusercontent.com/77446049/194842420-9aad781c-0690-433d-9d99-5f2097bde402.png)
