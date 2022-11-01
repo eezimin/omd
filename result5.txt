@@ -1,0 +1,6 @@
+...                                                                      [100%]
+
+---------- coverage: platform win32, python 3.10.7-final-0 -----------
+Coverage HTML written to dir htmlcov
+
+3 passed in 0.17s
